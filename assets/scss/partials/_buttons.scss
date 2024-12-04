@@ -1,10 +1,12 @@
 @import "color";
 @import "font";
 @import "spacings";
+@import "../mixin/animation";
 
 
 #bottoni{
     button{
+        @include animationInfo(1s, 1.5s);
         font: $font;
         color: $textColor;
         border: 0;

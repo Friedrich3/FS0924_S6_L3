@@ -1,6 +1,11 @@
+
+@use "hero";
+@use "buttons";
+
 @import "color";
 @import "font";
 @import "spacings";
+@import "../mixin/animation";
 
 
 header{
@@ -25,5 +30,7 @@ header{
         }
     }
 }
-@import "hero";
+
 }
+
+@include animated(bottom ,-50px);

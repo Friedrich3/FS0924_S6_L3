@@ -2,13 +2,12 @@
 @import "font";
 @import "spacings";
 @import "../mixin/mixin";
+@import "../mixin/animation";
 
 #hero{
     h1{
-        font-weight: $peso;
-        font-size: $titleSize;
-        color: $titleColor;
-        line-height: 0.95;
+        @include animationInfo(1s, 1s);
+        @include title;
     }
     p{
         color: $textColor;
@@ -16,11 +15,12 @@
         font-size: $textSize;
     }
     #image{
-        overflow: visible;
+        @include animationInfo(1s, 0.5s);
     img{
         @include floating(solid , 6px);
+        position: absolute;
     }
 }
 
-    @import "buttons";
+
 }
