@@ -1,0 +1,11 @@
+@import "color";
+@import "font";
+@import "spacings";
+@import "../mixin/mixin";
+
+main{
+    margin: $marginY 10px;
+    img{
+        @include floating(none , 4px);
+    }
+}

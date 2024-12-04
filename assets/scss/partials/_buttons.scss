@@ -1,0 +1,27 @@
+@import "color";
+@import "font";
+@import "spacings";
+
+
+#bottoni{
+    button{
+        font: $font;
+        color: $textColor;
+        border: 0;
+        border-radius: 4px;
+        padding: $buttonX $buttonY;
+        &:hover{
+            text-decoration: underline;
+        }
+        &:nth-child(1){
+            background-color: $blu;
+        }
+        &:nth-child(2){
+            background-color: $arancio;
+        }
+        &:nth-child(3){
+            background-color: $verde;
+        }
+    }
+    
+}

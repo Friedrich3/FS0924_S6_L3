@@ -1,0 +1,8 @@
+@import"../partials/color";
+
+@mixin floating($visibile, $shadowpx){
+    box-shadow: $shadowpx $shadowpx $shadowpx $shadow;
+    border-radius: 4%;
+    border: 2px $visibile $bordo;
+
+}

@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #640fc5;
+  padding: 2.5% 8%;
+}
+header nav {
+  margin-bottom: 15%;
+}
+header nav h3 {
+  font-weight: 900;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #f4f4f4;
+  opacity: 70%;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+header #hero h1 {
+  font-weight: 900;
+  font-size: 4.8rem;
+  color: #290550;
+  line-height: 0.95;
+}
+header #hero p {
+  color: #f4f4f4;
+  opacity: 70%;
+  font-size: 1.5rem;
+}
+header #hero #image {
+  overflow: visible;
+}
+header #hero #image img {
+  box-shadow: 6px 6px 6px rgba(27, 27, 27, 0.74);
+  border-radius: 4%;
+  border: 2px solid #AF76F0;
+}
+header #hero #bottoni button {
+  font: "Roboto", sans-serif;
+  color: #f4f4f4;
+  border: 0;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+}
+header #hero #bottoni button:hover {
+  text-decoration: underline;
+}
+header #hero #bottoni button:nth-child(1) {
+  background-color: #0e6cff;
+}
+header #hero #bottoni button:nth-child(2) {
+  background-color: #ff8700;
+}
+header #hero #bottoni button:nth-child(3) {
+  background-color: #4caf50;
+}
+
+main {
+  margin: 15% 10px;
+}
+main img {
+  box-shadow: 4px 4px 4px rgba(27, 27, 27, 0.74);
+  border-radius: 4%;
+  border: 2px none #AF76F0;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+@import "color";
+@import "font";
+@import "spacings";
+@import "../mixin/mixin";
+
+#hero{
+    h1{
+        font-weight: $peso;
+        font-size: $titleSize;
+        color: $titleColor;
+        line-height: 0.95;
+    }
+    p{
+        color: $textColor;
+        opacity: $opacita;
+        font-size: $textSize;
+    }
+    #image{
+        overflow: visible;
+    img{
+        @include floating(solid , 6px);
+    }
+}
+
+    @import "buttons";
+}
