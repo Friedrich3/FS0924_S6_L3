@@ -1,0 +1,14 @@
+{
+  "name": "fs0924_s6_l3",
+  "version": "1.0.0",
+  "description": "Unit 2 Week 6 Day 3 Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.82.0"
+  }
+}
